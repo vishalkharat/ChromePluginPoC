@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css" rel="stylesheet" />
+    <title>PerfWatch</title>
+</head>
+
+<body style="width: 500px; height: auto; overflow-y: hidden;">
+    <div class='main-container'>
+        <p class='section-title'>FAME Verifier</p>
+
+        <div class='perf-tile' id='tile-section'>
+        </div>
+    </div>
+    <link rel='stylesheet' href='popup.css' />
+    <script src='popup.js'></script>
+    <div class="container">
+        <table class="table table-bordered" id="dataTable" style="width:100%;margin-top:15px;">
+            <tbody id="tableBody">
+
+            </tbody>
+        </table>
+
+        <div class="row" style="margin-top:20px; margin-bottom: 15px;">
+            <div class="col-xs-6">
+                <button type="submit" class="btn btn-primary btn-block" id="validate">Validate</button>
+            </div>
+            <div class="col-xs-6">
+                <p class="text-success" style="font-weight: bold;" id="message"></p>
+            </div>
+        </div>
+    </div>
+
+
+
+</body>
+
+</html>
